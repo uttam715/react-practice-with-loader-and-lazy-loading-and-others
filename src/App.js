@@ -1,7 +1,5 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
-
-const LazyComponent = lazy(()=>import("./components/lazyComponent"))
 export default function App() {
   const [isLoad, setIsLoad] = useState(false);
 
