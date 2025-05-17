@@ -21,7 +21,7 @@ export default function Loader() {
         circle. animate-spin → applies a spinning animation (built-in Tailwind
         utility).
         <button
-          class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+          className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
           onClick={() => setIsLoad(true)}
         >
           Click Loading
