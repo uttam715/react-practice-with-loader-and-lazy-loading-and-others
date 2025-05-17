@@ -1,11 +1,13 @@
 // import Loader from "./components/loader/Loader";
-import SuspenseUse from "./components/suspence/SuspenceUse";
+import Main from "./components/pureComponent/Main";
+// import SuspenseUse from "./components/suspence/SuspenceUse";
 
 export default function App() {
-  return(
+  return (
     <div>
       {/* <Loader></Loader> */}
-      <SuspenseUse />
+      {/* <SuspenseUse /> */}
+      <Main></Main>
     </div>
-  )
+  );
 }

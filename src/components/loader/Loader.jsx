@@ -33,8 +33,14 @@ export default function Loader() {
   );
 }
 
-export function LoaderModal({isLoad}) {
-  console.log(isLoad);
+export function LoaderModal({ isLoad }) {
+  useEffect(() => {
+    console.log(isLoad);
+
+    return () => {
+      console.log(isLoad, "unmount");
+    };
+  }, []);
   return (
     <>
       <div
